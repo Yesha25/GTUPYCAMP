@@ -1,0 +1,5 @@
+f=open('C:\Users\Yesha\Desktop\input.txt','r')
+var=str(f.read())
+ans=str(var.find('u'))
+b=open('C:\Users\Yesha\Desktop\output.txt','w')
+b.write(ans)
